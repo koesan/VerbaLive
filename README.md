@@ -85,5 +85,5 @@ python app.py
 
 ---
 
-![Application demo](video/video.mp4)
+<video src="video/video.mp4" controls width="640"></video>
 
