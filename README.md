@@ -85,7 +85,6 @@ python app.py
 
 ---
 
-<p align="center">
-  <a href="video/video.mp4">▶ Watch the demo video</a>
-</p>
+[▶ Watch the demo video](video/video.mp4)
+
 
