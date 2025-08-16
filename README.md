@@ -85,5 +85,7 @@ python app.py
 
 ---
 
-<video src="video/video.mp4" controls width="640"></video>
+<p align="center">
+  <a href="video/video.mp4">▶ Watch the demo video</a>
+</p>
 
