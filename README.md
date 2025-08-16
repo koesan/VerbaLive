@@ -85,5 +85,5 @@ python app.py
 
 ---
 
-[▶ Watch application demo](video/video.mp4)
+![Application demo](video/video.mp4)
 
