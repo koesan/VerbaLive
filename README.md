@@ -81,4 +81,9 @@ python app.py
 
 ## 🙏 Credits — Teşekkür  
 - Based on: **LiveCaptions** by abb128  
-- ASR: **april-asr** + **april-english-dev-01110_en.april**  
+- ASR: **april-asr** + **april-english-dev-01110_en.april**
+
+---
+
+[▶ Watch application demo](video/video.mp4)
+
