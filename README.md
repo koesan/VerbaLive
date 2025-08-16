@@ -85,6 +85,10 @@ python app.py
 
 ---
 
+**Watch the demo video**
+
+https://github.com/user-attachments/assets/ac5eac05-d56e-4669-a32d-8e81beaa1e6c
+
 [▶ Watch the demo video](video/video.mp4)
 
 
