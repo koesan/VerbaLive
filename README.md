@@ -1,33 +1,35 @@
 # VerbaLive — Real-time English Captions & Translation  
 
 **EN:**  
-VerbaLive is a simple desktop app that listens to **any sound from your microphone** — whether it's your voice, someone else's, or even a video playing — and instantly turns English speech into text.  
-It uses the **April-ASR** offline speech recognition model, so it works even without an internet connection for recognition. If you want, it can also **translate** the recognized text into other languages in real-time using Google or DeepL.  
+VerbaLive is a friendly desktop app that listens to **anything your microphone can hear** — your voice, someone speaking in the room, a video playing on your computer, or even voices from an online meeting.  
+It instantly turns English speech into text using the **April-ASR** offline model, so you don’t need internet for recognition.  
+If you want, it can also **translate** what’s said into other languages in real time using Google or DeepL.  
 
 **TR:**  
-VerbaLive, **mikrofonunuzdan gelen her türlü sesi** — ister kendi sesiniz, ister başkasının konuşması, hatta bilgisayarınızdan çalan bir video — anında yazıya dönüştüren basit bir masaüstü uygulamasıdır.  
-**April-ASR** çevrimdışı konuşma tanıma modeli sayesinde internet olmasa bile İngilizce konuşmayı algılar. İsterseniz tanınan metni Google veya DeepL kullanarak **gerçek zamanlı olarak** başka dillere çevirebilir.  
+VerbaLive, **mikrofonunuzun duyabildiği her sesi** — kendi sesiniz, odadaki başka birinin konuşması, bilgisayardan çalan bir video ya da çevrim içi bir toplantıdan gelen sesler — dinler.  
+İngilizce konuşmayı **April-ASR** çevrimdışı modeli ile anında yazıya çevirir; tanıma için internete gerek yoktur.  
+İsterseniz duyulanları Google veya DeepL kullanarak **gerçek zamanlı olarak** başka dillere çevirebilir.  
 
 ---
 
-## ✨ Features — Özellikler  
-- **Offline recognition:** No internet needed for speech-to-text (April-ASR).  
-  **TR:** Çevrimdışı konuşma tanıma (April-ASR), internet gerekmez.  
-- **Real-time captions:** Shows text instantly as you speak.  
-  **TR:** Konuşurken anında altyazı oluşturur.  
-- **Partial & final captions:** Bold for partial text, normal for final sentences.  
-  **TR:** Kısmi metinler kalın, tamamlanan cümleler normal görünür.  
-- **Optional translation:** Translates recognized text into your chosen language.  
-  **TR:** Tanınan metni seçtiğiniz dile çevirir.  
-- **Any sound source:** Works with your voice, others’ voices, or any audio coming into your microphone.  
-  **TR:** Kendi sesiniz, başkasının sesi veya mikrofona gelen herhangi bir ses ile çalışır.  
+## ✨ What it can do — Neler yapabilir  
+- **Works offline:** Speech-to-text without internet (April-ASR).  
+  **TR:** İnternetsiz konuşma tanıma (April-ASR).  
+- **Real-time captions:** Text appears instantly as words are spoken.  
+  **TR:** Konuşma anında ekrana yansır.  
+- **Partial & final captions:** Bold for live text, normal for finished sentences.  
+  **TR:** Canlı metinler kalın, tamamlanan cümleler normal görünür.  
+- **Optional translation:** Translate into your chosen language instantly.  
+  **TR:** Tanınan metni seçtiğiniz dile anında çevirir.  
+- **Hears everything:** From in-person conversations to remote meetings and videos.  
+  **TR:** Yüz yüze konuşmalardan çevrim içi toplantılara ve videolara kadar her sesi işler.  
 
 ---
 
 ## 🧰 Tech & Model — Teknoloji ve Model  
-- **ASR Library:** `april-asr` (import as `april_asr`)  
+- **ASR Library:** `april-asr` (Python binding for April-ASR)  
 - **Model:** `april-english-dev-01110_en.april` — trained with numbers & punctuation  
-- **Download model:** [Click here to download](https://abb128.github.io/april-asr/models.html)  
+- **Download model:** [Official model page](https://abb128.github.io/april-asr/models.html)  
   After downloading, **place the file in your project folder next to `app.py`**.  
 
 ---
@@ -36,7 +38,7 @@ VerbaLive, **mikrofonunuzdan gelen her türlü sesi** — ister kendi sesiniz, i
 - Python 3.8+  
 - `april-asr`, `sounddevice`, `PyQt5`, `numpy`  
 - Optional: `googletrans`, `deepl` for translations  
-- **Note:** On macOS/Linux, PortAudio may need to be installed:  
+- **Note:** On macOS/Linux, you may need to install PortAudio:  
   - macOS: `brew install portaudio`  
   - Ubuntu/Debian: `sudo apt-get install portaudio19-dev`  
 
@@ -66,8 +68,8 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```  
-- **EN:** Speak English or play English audio — captions will appear instantly, translations will show if enabled.  
-- **TR:** İngilizce konuşun veya İngilizce ses çalın — altyazılar anında çıkar, çeviri açıksa çevrilir.  
+- **EN:** Speak English, play a video, or join a meeting — captions will appear instantly, and translations will show if enabled.  
+- **TR:** İngilizce konuşun, video oynatın veya toplantıya katılın — altyazılar anında çıkar, çeviri açıksa ekranda görünür.  
 
 ---
 
