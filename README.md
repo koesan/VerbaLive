@@ -1,11 +1,11 @@
-# EchoScript — Real-time English Captions & Translation  
+# VerbaLive — Real-time English Captions & Translation  
 
 **EN:**  
-EchoScript is a simple desktop app that listens to **any sound from your microphone** — whether it's your voice, someone else's, or even a video playing — and instantly turns English speech into text.  
+VerbaLive is a simple desktop app that listens to **any sound from your microphone** — whether it's your voice, someone else's, or even a video playing — and instantly turns English speech into text.  
 It uses the **April-ASR** offline speech recognition model, so it works even without an internet connection for recognition. If you want, it can also **translate** the recognized text into other languages in real-time using Google or DeepL.  
 
 **TR:**  
-EchoScript, **mikrofonunuzdan gelen her türlü sesi** — ister kendi sesiniz, ister başkasının konuşması, hatta bilgisayarınızdan çalan bir video — anında yazıya dönüştüren basit bir masaüstü uygulamasıdır.  
+VerbaLive, **mikrofonunuzdan gelen her türlü sesi** — ister kendi sesiniz, ister başkasının konuşması, hatta bilgisayarınızdan çalan bir video — anında yazıya dönüştüren basit bir masaüstü uygulamasıdır.  
 **April-ASR** çevrimdışı konuşma tanıma modeli sayesinde internet olmasa bile İngilizce konuşmayı algılar. İsterseniz tanınan metni Google veya DeepL kullanarak **gerçek zamanlı olarak** başka dillere çevirebilir.  
 
 ---
