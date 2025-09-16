@@ -10,6 +10,12 @@ VerbaLive, **mikrofonunuzun duyabildiği her sesi** — kendi sesiniz, odadaki b
 İngilizce konuşmayı **April-ASR** çevrimdışı modeli ile anında yazıya çevirir; tanıma için internete gerek yoktur.  
 İsterseniz duyulanları Google veya DeepL kullanarak **gerçek zamanlı olarak** başka dillere çevirebilir.  
 
+**Watch the demo video**
+
+https://github.com/user-attachments/assets/ac5eac05-d56e-4669-a32d-8e81beaa1e6c
+
+[▶ Watch the demo video](video/video.mp4)
+
 ---
 
 ## ✨ What it can do — Neler yapabilir  
@@ -82,13 +88,3 @@ python app.py
 ## 🙏 Credits — Teşekkür  
 - Based on: **LiveCaptions** by abb128  
 - ASR: **april-asr** + **april-english-dev-01110_en.april**
-
----
-
-**Watch the demo video**
-
-https://github.com/user-attachments/assets/ac5eac05-d56e-4669-a32d-8e81beaa1e6c
-
-[▶ Watch the demo video](video/video.mp4)
-
-
