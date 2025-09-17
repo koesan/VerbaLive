@@ -7,6 +7,12 @@
 
 <div align="center">
 
+**Watch the demo video**
+
+https://github.com/user-attachments/assets/ac5eac05-d56e-4669-a32d-8e81beaa1e6c
+
+[▶ Watch the demo video](video/video.mp4)
+
 **Gerçek zamanlı İngilizce konuşma tanıma ve çok dilli çeviri sistemi**
 
 *Real-time English speech recognition and multilingual translation system*
@@ -155,25 +161,6 @@ python app.py
 # Configurable settings in app.py
 self.silence_threshold_ms = 1500  # Silence threshold (ms)
 self.realtime_timer.start(500)   # Live translation frequency (ms)
-```
-
-#### Language Codes
-```python
-# Supported languages
-languages = [
-    ("tr", "🇹🇷 Türkçe"),     # Turkish
-    ("fr", "🇫🇷 Français"),   # French
-    ("de", "🇩🇪 Deutsch"),    # German
-    ("es", "🇪🇸 Español"),    # Spanish
-    ("it", "🇮🇹 Italiano"),   # Italian
-    ("ru", "🇷🇺 Русский"),    # Russian
-    ("ja", "🇯🇵 日本語"),     # Japanese
-    ("zh-CN", "🇨🇳 中文"),   # Chinese
-    ("ar", "🇸🇦 العربية"),   # Arabic
-    ("pt", "🇵🇹 Português"),  # Portuguese
-    ("nl", "🇳🇱 Nederlands"), # Dutch
-    ("ko", "🇰🇷 한국어")      # Korean
-]
 ```
 
 ### 🔧 Troubleshooting
@@ -340,25 +327,6 @@ python app.py
 # app.py içinde değiştirilebilir ayarlar
 self.silence_threshold_ms = 1500  # Sessizlik eşiği (ms)
 self.realtime_timer.start(500)   # Anlık çeviri sıklığı (ms)
-```
-
-#### Dil Kodları
-```python
-# Desteklenen diller
-languages = [
-    ("tr", "🇹🇷 Türkçe"),     # Türkçe
-    ("fr", "🇫🇷 Français"),   # Fransızca
-    ("de", "🇩🇪 Deutsch"),    # Almanca
-    ("es", "🇪🇸 Español"),    # İspanyolca
-    ("it", "🇮🇹 Italiano"),   # İtalyanca
-    ("ru", "🇷🇺 Русский"),    # Rusça
-    ("ja", "🇯🇵 日本語"),     # Japonca
-    ("zh-CN", "🇨🇳 中文"),   # Çince
-    ("ar", "🇸🇦 العربية"),   # Arapça
-    ("pt", "🇵🇹 Português"),  # Portekizce
-    ("nl", "🇳🇱 Nederlands"), # Hollandaca
-    ("ko", "🇰🇷 한국어")      # Korece
-]
 ```
 
 ### 🔧 Sorun Giderme
