@@ -1,17 +1,17 @@
 # 🎤 VerbaLive - Profesyonel Canlı Konuşma Tanıma ve Çeviri Sistemi
 
+<div align="center">
+
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
 ![PyQt5](https://img.shields.io/badge/PyQt5-v5.15+-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 
-<div align="center">
-
 **Watch the demo video**
 
 https://github.com/user-attachments/assets/ac5eac05-d56e-4669-a32d-8e81beaa1e6c
 
-[▶ Watch the demo video](video/video.mp4)
+[▶demo video](video/video.mp4)
 
 **Gerçek zamanlı İngilizce konuşma tanıma ve çok dilli çeviri sistemi**
 
