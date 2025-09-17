@@ -1,4 +1,4 @@
-# 🎤 VerbaLive - Profesyonel Canlı Konuşma Tanıma ve Çeviri Sistemi
+# 🎤 VerbaLive - Real-Time Speech Recognition and Translation System
 
 <div align="center">
 
