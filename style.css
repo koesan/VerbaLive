@@ -1,68 +1,300 @@
+/* ============================================
+   VerbaLive Dark Theme v2.1
+   Koyu, sade ve ultra ince tasarım
+   ============================================ */
+
+/* Ana Widget - Koyu Tema */
 QWidget {
-    background-color: #121212;
-    color: #ffffff;
-    font-family: 'Consolas', 'Courier New', monospace;
-}
-
-QGroupBox {
-    font-weight: bold;
+    background-color: #0a0a0a;  /* Çok koyu siyah */
+    color: #e5e5e7;  /* Açık gri metin */
+    font-family: 'Segoe UI', 'Helvetica Neue', 'Arial', sans-serif;
     font-size: 14px;
-    border: 1px solid #555;
-    border-radius: 5px;
-    margin-top: 8px;
-    padding-top: 8px;
-    background-color: #1e1e1e;
 }
 
-QGroupBox::title {
-    subcontrol-origin: margin;
-    left: 8px;
-    padding: 0 4px;
-    background-color: #1e1e1e;
-    color: #4CAF50;
+/* Koyu Kontrol Bar */
+#darkControlBar {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                stop: 0 #1c1c1e, stop: 1 #171719);
+    border: none;
+    border-bottom: 1px solid #2c2c2e;
+    margin: 0px;
+    padding: 0px;
 }
 
-QTextEdit {
-    border: 1px solid #444;
-    border-radius: 4px;
-    padding: 8px;
-    background-color: #000000;
-    color: #f5f5f5;
-    font-size: 16px;
-    selection-background-color: #4CAF50;
-    selection-color: #000000;
+/* Koyu Başlık */
+#darkTitle {
+    font-size: 17px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px 8px;
+    letter-spacing: -0.5px;
 }
 
-QComboBox {
-    border: 1px solid #555;
-    border-radius: 4px;
-    padding: 4px;
-    background-color: #2a2a2a;
+/* Koyu Label'lar */
+#darkLabel {
+    font-size: 13px;
+    font-weight: 500;
+    color: #8e8e93;  /* Gri */
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Koyu Combo Box - Ultra sade */
+#darkCombo {
+    background: #2c2c2e;
+    border: 1px solid #48484a;
+    border-radius: 8px;
+    padding: 4px 12px;
     color: #ffffff;
     font-size: 13px;
+    font-weight: 400;
+    min-height: 20px;
+    selection-background-color: #0a84ff;  /* Mavi */
 }
 
-QPushButton {
-    background-color: #4CAF50;
+#darkCombo:hover {
+    border-color: #0a84ff;
+    background: #3a3a3c;
+}
+
+#darkCombo:focus {
+    border-color: #0a84ff;
+    outline: none;
+}
+
+#darkCombo::drop-down {
+    border: none;
+    width: 20px;
+    background: transparent;
+}
+
+#darkCombo::down-arrow {
+    image: none;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #8e8e93;
+    margin-right: 8px;
+}
+
+#darkCombo QAbstractItemView {
+    background: #2c2c2e;
+    color: #ffffff;
+    border: 1px solid #48484a;
+    border-radius: 8px;
+    selection-background-color: #0a84ff;
+    selection-color: white;
+    padding: 4px;
+    outline: none;
+}
+
+/* Koyu API Input */
+#darkApiInput {
+    background: #2c2c2e;
+    border: 1px solid #48484a;
+    border-radius: 8px;
+    padding: 6px 12px;
+    color: #ffffff;
+    font-family: 'SF Mono', 'Monaco', 'Consolas', monospace;
+    font-size: 12px;
+    max-height: 26px;
+    min-width: 280px;
+}
+
+#darkApiInput:focus {
+    border-color: #0a84ff;
+    outline: none;
+}
+
+/* Koyu Clear Button */
+#darkClearButton {
+    background: #ff453a;  /* Koyu kırmızı */
     color: white;
     border: none;
-    border-radius: 4px;
-    padding: 8px 14px;
-    font-weight: bold;
+    border-radius: 8px;
+    padding: 6px 16px;
+    font-weight: 500;
     font-size: 13px;
+    max-height: 28px;
 }
 
-QPushButton:hover {
-    background-color: #45a049;
+#darkClearButton:hover {
+    background: #ff6961;
 }
 
-QLabel {
+#darkClearButton:pressed {
+    background: #d70015;
+}
+
+/* Koyu Metin Grup Kutuları */
+#darkTextGroup {
+    font-weight: 600;
+    font-size: 13px;
+    border: 1px solid #48484a;
+    border-radius: 12px;
+    margin-top: 8px;
+    padding-top: 16px;
+    background: #1c1c1e;
+    color: #ffffff;
+}
+
+#darkTextGroup::title {
+    subcontrol-origin: margin;
+    left: 16px;
+    padding: 0 8px;
+    background: #1c1c1e;
     color: #ffffff;
     font-size: 13px;
-    font-weight: bold;
+    font-weight: 600;
+    letter-spacing: -0.3px;
 }
 
-QSplitter::handle {
-    background-color: #555;
-    height: 2px;
+/* Koyu Metin Editörleri */
+#darkTextEditor {
+    background: #000000;  /* Tam siyah */
+    color: #e5e5e7;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 16px;
+    line-height: 1.6;
+    selection-background-color: #0a84ff;
+    selection-color: white;
+}
+
+#darkTextEditor:focus {
+    background: #0a0a0a;
+    outline: none;
+}
+
+/* İngilizce kaynak metin - Turuncu ton */
+#darkSourceTextEditor {
+    background: #1a0f00;  /* Koyu turuncu */
+    color: #ffcc99;  /* Açık turuncu */
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#darkSourceTextEditor:focus {
+    background: #2d1600;
+    outline: none;
+}
+
+/* Ultra İnce Splitter - Neredeyse görünmez */
+#ultraThinSplitter::handle {
+    background: #48484a;  /* Koyu gri */
+}
+
+#ultraThinSplitter::handle:horizontal {
+    width: 1px;  /* Ultra ince - yarı yarıya */
+    margin: 4px 0px;
+    border-radius: 0px;
+}
+
+#ultraThinSplitter::handle:vertical {
+    height: 1px;  /* Ultra ince - yarı yarıya */
+    margin: 0px 4px;
+    border-radius: 0px;
+}
+
+#ultraThinSplitter::handle:hover {
+    background: #0a84ff;  /* Hover'da mavi */
+}
+
+/* Koyu Scrollbar */
+QScrollBar:vertical {
+    background: transparent;
+    width: 6px;
+    border-radius: 3px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+    min-height: 20px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background: transparent;
+    height: 0px;
+}
+
+/* Koyu Durum Çubuğu */
+#darkStatusBar {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                stop: 0 #1c1c1e, stop: 1 #171719);
+    border: none;
+    border-top: 1px solid #2c2c2e;
+    max-height: 28px;
+}
+
+#darkStatusLabel {
+    color: #30d158;  /* Yeşil */
+    font-weight: 500;
+    font-size: 12px;
+}
+
+#darkVersionLabel {
+    color: #8e8e93;  /* Gri */
+    font-size: 11px;
+    font-weight: 400;
+}
+
+/* Koyu Ayırıcılar */
+#darkSeparator {
+    color: #2c2c2e;
+    background-color: #2c2c2e;
+    max-height: 1px;
+    margin: 0px;
+    border: none;
+}
+
+#darkVerticalSeparator {
+    color: #48484a;
+    background-color: #48484a;
+    max-width: 1px;
+    margin: 4px 0px;
+    border: none;
+}
+
+/* Koyu Tooltip */
+QToolTip {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* Koyu Selection */
+::selection {
+    background-color: #0a84ff;
+    color: white;
+}
+
+/* Focus */
+*:focus {
+    outline: none;
+}
+
+/* Disabled Elements */
+*:disabled {
+    color: #48484a;
+    background-color: #1c1c1e;
+}
+
+/* Placeholder Text */
+QTextEdit[placeholderText] {
+    color: #48484a;
 }
