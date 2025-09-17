@@ -7,8 +7,6 @@
 ![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 
-**Watch the demo video**
-
 https://github.com/user-attachments/assets/ac5eac05-d56e-4669-a32d-8e81beaa1e6c
 
 [▶demo video](video/video.mp4)
