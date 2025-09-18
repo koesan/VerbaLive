@@ -1,6 +1,6 @@
-# 🎤 VerbaLive - Real-Time Speech Recognition and multilingual Translation System
-
 <div align="center">
+
+# 🎤 VerbaLive - Real-Time Speech Recognition and multilingual Translation System
 
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
 ![PyQt5](https://img.shields.io/badge/PyQt5-v5.15+-green.svg)
