@@ -1,4 +1,4 @@
-# 🎤 VerbaLive - Real-Time Speech Recognition and Translation System
+# 🎤 VerbaLive - Real-Time Speech Recognition and multilingual Translation System
 
 <div align="center">
 
@@ -10,10 +10,6 @@
 https://github.com/user-attachments/assets/ac5eac05-d56e-4669-a32d-8e81beaa1e6c
 
 [▶demo video](video/video.mp4)
-
-**Gerçek zamanlı İngilizce konuşma tanıma ve çok dilli çeviri sistemi**
-
-*Real-time English speech recognition and multilingual translation system*
 
 ---
 
