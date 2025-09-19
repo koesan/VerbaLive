@@ -9,7 +9,11 @@
 
 https://github.com/user-attachments/assets/ac5eac05-d56e-4669-a32d-8e81beaa1e6c
 
-[▶demo video](video/video.mp4)
+[![Demo Video](https://img.shields.io/badge/Demo%20Video-▶️-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](video/video.mp4)
+
+## 📎 Live Demo - Canlı Demo
+
+[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Demo-yellow?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/spaces/koesan/VerbaLive)
 
 ---
 
